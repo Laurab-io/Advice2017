@@ -1,0 +1,68 @@
+section, footer {
+    align-items: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+}
+
+section:nth-of-type(1) {
+    background-image: url('https://unsplash.it/1024/683/?image=1068');
+}
+
+section:nth-of-type(2) {
+    background-image: url('https://unsplash.it/1024/683/?image=1073');
+}
+
+section:nth-of-type(3) {
+    background-image: url('https://unsplash.it/1024/683/?random');
+    opacity: 0.9;
+}
+
+section:nth-of-type(4) {
+    background-image: url('https://unsplash.it/1024/683/?image=1043');
+}
+
+section:nth-of-type(5) {
+    background-image: url('https://unsplash.it/1024/683/?image=1042');
+    opacity: 0.9;
+}
+
+section p, h6, h5 {
+    display: block;
+}
+
+body {
+    margin: 0;
+    font-family: 'dyslexie';
+}
+
+p {
+    margin: 0;
+    font-size: 2rem;
+    padding: 0 5rem;
+    color: #fff;
+}
+
+h6 {
+    margin: 0;
+    font-size: 1.6rem;
+    padding: 0 5rem;
+    color: #fff;
+}
+
+h5 {
+    margin: 0;
+    font-size: 1.5rem;
+    padding: 0 5rem;
+    color: #fff;
+}
+
+social-icons a {
+    display: block;
+    color: #fff;
+}
